@@ -29,7 +29,7 @@ export default function SplitScreen() {
                 bg: 'blue.400',
                 zIndex: -1,
               }}>
-              Freelance
+              FAYCAL
             </Text>
             <br />{' '}
             <Text color={'blue.400'} as={'span'}>
