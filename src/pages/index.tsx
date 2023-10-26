@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import WithSubnavigation from '@/components/navbar'
 import CallToActionWithIllustration from '@/components/CorpsPage'
 import SmallWithLogoLeft from '@/components/footer'
+import Nav from '@/components/navbar'
 
 export default function Home() {
   return (
@@ -13,9 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main> 
-          <WithSubnavigation/>
           <CallToActionWithIllustration/>
           <SmallWithLogoLeft/>
+          <Nav/>
       </main>
     </>
   )
