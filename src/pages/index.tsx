@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import WithSubnavigation from '@/Components/navbar'
+import CallToActionWithIllustration from '@/Components/CorpsPage'
+import SmallWithLogoLeft from '@/Components/footer'
 
 export default function Home() {
   return (
@@ -9,7 +12,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>    
+      <main> 
+          <WithSubnavigation/>
+          <CallToActionWithIllustration/>
+          <SmallWithLogoLeft/>
       </main>
     </>
   )
