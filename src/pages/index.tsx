@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import WithSubnavigation from '@/Components/navbar'
-import CallToActionWithIllustration from '@/Components/CorpsPage'
-import SmallWithLogoLeft from '@/Components/footer'
+import WithSubnavigation from '@/components/navbar'
+import CallToActionWithIllustration from '@/components/CorpsPage'
+import SmallWithLogoLeft from '@/components/footer'
 
 export default function Home() {
   return (
